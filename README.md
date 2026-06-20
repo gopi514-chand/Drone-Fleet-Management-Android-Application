@@ -18,13 +18,17 @@ The application follows modern Android development practices using MVVM architec
 ⚠️ Proper error handling
 🌙 Dark mode support (optional)
 📊 Dashboard statistics (optional)
+
 🧱 Architecture Used
 
 The application is built using MVVM (Model–View–ViewModel) architecture.
 
 Model → Represents drone data
+
 View → Activities / Fragments (UI layer)
+
 ViewModel → Handles business logic
+
 Repository → Single source of truth for data
 
 This ensures:
@@ -32,6 +36,7 @@ This ensures:
 Separation of concerns
 Lifecycle-aware UI updates
 Better testability and scalability
+
 🔄 End-to-End Working Flow
 
 When the user launches the Drone Fleet Management Android application, the app opens with the Main Activity, which hosts the Drone List Screen. At startup, the app initializes the MVVM architecture, where the View (Activity/Fragment) communicates with the ViewModel, and the ViewModel interacts with the Repository to fetch drone data.
