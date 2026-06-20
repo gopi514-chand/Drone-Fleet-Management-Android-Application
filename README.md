@@ -1,5 +1,7 @@
 **🚁 Drone Fleet Management – Android Application**
 
+**APK Location:** app/build/outputs/apk/debug/app-debug.apk
+
 **📌 Project Overview**
 
 Drone Fleet Management is an Android application designed to monitor and manage multiple drones from a single interface.
@@ -120,4 +122,4 @@ Inspection and logistics
 
 This project is for learning and demonstration purposes.
 
-**APK Location:** app/build/outputs/apk/debug/app-debug.apk
+
