@@ -119,3 +119,5 @@ Inspection and logistics
 **📄 License**
 
 This project is for learning and demonstration purposes.
+
+**APK Location:** app/build/outputs/apk/debug/app-debug.apk
