@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drone Details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text=""
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/droneDetailGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/detailDroneId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GA-001" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/detailDroneName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Survey Drone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/detailDroneStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flying" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/detailDroneLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mysore" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Battery"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/detailDroneBattery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="85%" />
+
+            <ProgressBar
+                android:id="@+id/detailBatteryProgress"
+                style="Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:progress="85"
+                android:max="100"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/detailBatteryState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Healthy"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Altitude"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/detailAltitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120 m" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speed"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/detailSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25 km/h" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Updated"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/detailLastUpdated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 minutes ago" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
