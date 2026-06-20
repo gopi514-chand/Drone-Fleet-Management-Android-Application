@@ -81,22 +81,33 @@ Optional features like Dashboard Statistics provide a quick overview of total dr
 
 User → UI → ViewModel → Repository → Data Source → ViewModel → RecyclerView → Detail Screen
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 Language: Kotlin
+
 UI: XML, RecyclerView, ViewBinding
+
 Architecture: MVVM
+
 Data Handling: Repository Pattern / Retrofit (Mock API)
+
 Optional: Room Database, Material Design, Dark Mode
-🚀 How to Run the Project
+
+**🚀 How to Run the Project**
 Clone the repository
+
 Open in Android Studio
+
 Sync Gradle
+
 Run on emulator or physical device
-📌 Use Cases
+
+**📌 Use Cases**
+
 Drone fleet monitoring
 Agriculture drones
 Surveying and mapping
 Inspection and logistics
-📄 License
+
+**📄 License**
 
 This project is for learning and demonstration purposes.
